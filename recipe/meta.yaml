@@ -1,6 +1,5 @@
 {% set version = '1.2' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-microbiomestat
@@ -13,9 +12,8 @@ source:
   sha256: f851d71a008a768457a3c8ea797406dd03abfa1bcee4e33b01610e433532ecce
 
 build:
-  merge_build_host: True  # [win]
   noarch: generic
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
