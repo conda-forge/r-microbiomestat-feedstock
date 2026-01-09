@@ -28,25 +28,43 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-bbmisc
+    - r-mass
+    - r-matrix
+    - r-paramhelpers
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-dplyr
     - r-foreach
     - r-ggplot2
     - r-ggrepel
+    - r-lhs
     - r-lmertest
-    - r-mass
-    - r-matrix
     - r-matrixstats
+    - r-mlr
+    - r-mlrmbo
     - r-modeest
+    - r-smoof
     - r-statmod
   run:
     - r-base
+    - r-bbmisc
+    - r-mass
+    - r-matrix
+    - r-paramhelpers
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-dplyr
     - r-foreach
     - r-ggplot2
     - r-ggrepel
+    - r-lhs
     - r-lmertest
-    - r-mass
-    - r-matrix
     - r-matrixstats
+    - r-mlr
+    - r-mlrmbo
     - r-modeest
+    - r-smoof
     - r-statmod
 
 test:
