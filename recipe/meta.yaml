@@ -41,45 +41,40 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - nlopt
     - r-base
-    - r-bbmisc
     - r-mass
     - r-matrix
-    - r-paramhelpers
     - r-rcpp
     - r-rcpparmadillo
+    - r-bbotk
     - r-dplyr
     - r-foreach
     - r-ggplot2
     - r-ggrepel
-    - r-lhs
     - r-lmertest
     - r-matrixstats
-    - r-mlr
-    - r-mlrmbo
+    - r-mlr3
+    - r-mlr3mbo
     - r-modeest
-    - r-smoof
+    - r-paradox
     - r-statmod
   run:
     - r-base
-    - r-bbmisc
     - r-mass
     - r-matrix
-    - r-paramhelpers
     - r-rcpp
     - r-rcpparmadillo
+    - r-bbotk
     - r-dplyr
     - r-foreach
     - r-ggplot2
     - r-ggrepel
-    - r-lhs
     - r-lmertest
     - r-matrixstats
-    - r-mlr
-    - r-mlrmbo
+    - r-mlr3
+    - r-mlr3mbo
     - r-modeest
-    - r-smoof
+    - r-paradox
     - r-statmod
 
 test:
