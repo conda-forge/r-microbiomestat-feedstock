@@ -58,6 +58,7 @@ requirements:
     - r-mlr3mbo
     - r-modeest
     - r-paradox
+    - r-splines2
     - r-statmod
   run:
     - r-base
@@ -76,6 +77,7 @@ requirements:
     - r-mlr3mbo
     - r-modeest
     - r-paradox
+    - r-splines2
     - r-statmod
 
 test:
